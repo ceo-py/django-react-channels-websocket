@@ -1,8 +1,14 @@
 # django-react-channels-websocket
-Basic example between Django REST framework and React with channels and websockets.
+A straightforward demonstration of Django REST framework and React using channels and websockets for real-time interactions.
 
+**Getting Started:**
 
-To start the server 
-`daphne chatDemo.routing:application`
-To set global variable Windows
-`$env:DJANGO_SETTINGS_MODULE = "webSocketDemo.settings"`
+To start the server, run:
+```
+daphne chatDemo.routing:application
+```
+
+For Windows, set the global variable:
+```
+$env:DJANGO_SETTINGS_MODULE = "webSocketDemo.settings"
+```
